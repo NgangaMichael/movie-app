@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap');
+body {
+    background: #200122;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: cornsilk;
+}
+.container {
+    background: #200122;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6f0000, #200122);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #6f0000, #200122);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: auto;
+    width: fit-content;
+    width: 70%;
+    height: 100%;
+    border-radius: 5px;
+}
+.bacImg {
+    background-image: url("https://i1.wp.com/comicsworthreading.com/wp-content/uploads/2020/03/bloodshot.jpg?fit=820%2C462&ssl=1");
+    height: 22rem;
+    background-size: cover;
+}
+
+h1 {
+    color: azure;
+    font-family: 'Texturina',serif;
+    font-size: 3rem;
+    color: chartreuse;
+    padding-left: 1rem;
+}
+
+h1, form {
+    display: block;
+    overflow: hidden;
+}
+input, button {
+    display: block;
+    width: 100%;
+    outline: none;
+    font-size: 1.3rem;
+}
+img {
+    width: 20rem;
+    height: 25rem;
+}
+#errDisplay {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+button {
+    background: #200122;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #6f0000, #200122);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to  left, #6f0000, #200122);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border: none;
+    color: chartreuse;
+    font-weight: 900;
+    cursor: pointer;
+    border-bottom: 3px solid chartreuse;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 70%;
+    }
+}

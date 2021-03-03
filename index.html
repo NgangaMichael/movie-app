@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <!-- this is the main container  -->
+    <div class="container">
+        <!-- this is the hedaer container  -->
+        <div class="head">
+            <h1>Movie App</h1>
+            <form id="search">
+                <input type="text" placeholder="Enter Movie" name="query">
+                <button>Search</button>
+            </form>
+        </div>
+        <!-- the overal container for picturs and details  -->
+        <div class="bacImg" id="backImg">
+            <div class="movieImage" id="picture"> </div>
+            <div class="details" id="about"> </div>
+            <p class="errDisplay" id="errDisplay"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
